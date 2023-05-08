@@ -1,0 +1,151 @@
+h1 {
+  color: gold !important;
+  background-color: rgb(80, 9, 80) !important;
+}
+
+body {
+  background-image: url(../imagens/fundosaga.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  max-width: auto;
+  margin: 0 auto;
+  margin-left: 40px;
+}
+
+.minha-div {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textoP {
+  flex: 1 0 60%;
+  max-width: 100%;
+  height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.textoP p {
+  font-size: large;
+}
+
+.row {
+  display: block;
+  margin: 20px;
+}
+
+#masami {
+  width: 98%;
+}
+
+p {
+  color: gold !important;
+  background-color: purple;
+}
+
+h2 {
+  background-color: purple;
+  color: gold !important;
+  text-align: center;
+}
+
+.card {
+  color: gold !important;
+  background-color: rgb(80, 9, 80) !important;
+  border-radius: 20px;
+  border-style: groove;
+  border-color: #ffd700;
+}
+
+#glo {
+  padding: 20px;
+  border-radius: 10px;
+  border-style: groove;
+  color: gold !important;
+}
+
+.nav-item {
+  background-color: rgb(80, 9, 80) !important;
+  color: gold !important;
+}
+
+#navbarNav {
+  background-color: rgb(80, 9, 80) !important;
+  color: gold !important;
+}
+
+.navbar-brand {
+  background-color: rgb(80, 9, 80) !important;
+  color: gold !important;
+}
+
+.jp {
+  background-color: rgb(80, 9, 80) !important;
+  color: gold !important;
+
+}
+
+.nav-link {
+  color: gold !important;
+}
+
+.navbar {
+  background-color: rgb(80, 9, 80) !important;
+  border-radius: 10px;
+  border-style: groove;
+  color: gold !important;
+
+}
+
+.p-3 {
+  background-color: rgb(80, 9, 80);
+  color: gold !important;
+}
+
+.form-control,
+.form-control::selection,
+.form-control:focus,
+.form-control:hover,
+.form-control:valid {
+  background-color: blueviolet !important;
+  box-shadow: 0 0 0 0.2rem rgb(80, 9, 80) !important;
+  color: gold !important;
+  border-color: #ffd700 !important;
+}
+
+.form-control::placeholder {
+  color: #ffd90067 !important;
+}
+
+.navbar_alt {
+  background-color: rgb(80, 9, 80);
+}
+
+.navbar a,
+.navbar-brand {
+  color: gold !important;
+}
+
+.btn_alt {
+  color: #ffd700 !important;
+  background-color: rgb(80, 9, 80) !important;
+  box-shadow: 0 0 0 0.2rem #ffd700 !important;
+  color: gold !important;
+}
+
+.btn_alt:hover {
+  color: gold !important;
+  background-color: blueviolet !important;
+  box-shadow: 0 0 0 0.2rem #ffd700 !important;
+}
+

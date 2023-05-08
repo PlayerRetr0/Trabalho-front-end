@@ -1,0 +1,201 @@
+.conteiner {
+    color: gold;
+    background-color: rgb(68, 31, 87) !important;
+    margin: 15%;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #ffd700;
+}
+
+body {
+    background-image: url(../images/fundo.jpg);
+    background-size: contain;
+    opacity: 0.9;
+}
+
+.accordion-item {
+
+    background-color: rgb(68, 31, 87) !important;
+    color: gold !important;
+}
+
+.accordion-button {
+    background-color: rgb(80, 9, 80) !important;
+    color: gold !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    color: gold !important;
+    background-color: blueviolet !important;
+}
+
+.butt {
+    padding: 30px;
+    align-content: center;
+}
+
+h3 {
+    color: #ffd700 !important;
+}
+
+strong {
+    background-color: rgb(80, 9, 80);
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: rgb(80, 9, 80) !important;
+}
+
+.constrow {
+    padding: 50px;
+}
+
+#txtcnst {
+    text-align: center;
+}
+
+.cltbutt {
+    padding: 45px;
+}
+
+.sobrea {
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+#glo {
+    padding: 20px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #ffd700;
+}
+
+.nav-item {
+    background-color: rgb(80, 9, 80) !important;
+    color: gold !important;
+}
+
+#navbarNav {
+    background-color: rgb(80, 9, 80) !important;
+    color: gold !important;
+}
+
+.navbar-brand {
+    background-color: rgb(80, 9, 80) !important;
+    color: gold !important;
+}
+
+.jp {
+    background-color: rgb(80, 9, 80) !important;
+    color: gold !important;
+
+}
+
+.nav-link {
+    color: #ffd700 !important;
+}
+
+.navbar {
+    background-color: rgb(80, 9, 80) !important;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #ffd700;
+}
+
+.sbr {
+    text-align: center;
+    margin: 10%;
+    margin-top: 0;
+}
+
+/* nav bar fundo */
+
+.p-3 {
+    background-color: rgb(80, 9, 80);
+    color: #ffd700 !important;
+}
+
+.form-control,
+.form-control::selection,
+.form-control:focus,
+.form-control:hover,
+.form-control:valid {
+    background-color: blueviolet !important;
+    box-shadow: 0 0 0 0.2rem rgb(80, 9, 80) !important;
+    color: #ffd700 !important;
+    border-color: #ffd700 !important;
+}
+
+.form-control::placeholder {
+    color: #ffd90067 !important;
+}
+
+.navbar_alt {
+    background-color: rgb(80, 9, 80);
+}
+
+.navbar a,
+.navbar-brand {
+    color: #ffd700;
+}
+
+.btn_alt {
+    color: #ffd700 !important;
+    background-color: rgb(80, 9, 80) !important;
+    box-shadow: 0 0 0 0.2rem #ffd700 !important;
+    border-color: #ffd700 !important;
+}
+
+.btn_alt:hover {
+    color: #ffd700;
+    background-color: blueviolet !important;
+    box-shadow: 0 0 0 0.2rem #ffd700 !important;
+}
+
+/* horóscopo */
+
+.carousel {
+    height: auto;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-z-index {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textoHoroscopo {
+    color: transparent;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 10px;
+    width: 500px !important;
+    border-radius: 10px;
+}
+.cts{
+    color: gold !important;
+    background-color: rgb(68, 31, 87) !important;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: #ffd700;
+    margin: 5%;
+
+  }

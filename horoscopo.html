@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+  <script type="text/javascript" src="index.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
+    defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg jp">
+      <div class="container-fluid jp">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-moon-stars"></i>Zona do Zodíaco<i
+            class="bi bi-stars"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"
+                href="https://pt.quizur.com/quiz/qual-dos-doze-cavaleiros-de-ouro-vc-seria-4N4X" target="_blank"><i
+                  class="bi bi-question-lg"></i>Quiz dos Cavaleiros de Ouro<i class="bi bi-question-lg"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./constela.html"><i class="bi bi-stars"></i>Constelações<i
+                  class="bi bi-stars"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./astronomia.html"><i class="bi bi-sun"></i>Astronomia em Cavaleiros do Zodíaco<i
+                  class="bi bi-moon-stars"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sinopse/sinopse.html"><i class="bi bi-fire"></i>Sinopse dos Cavaleiros do
+                zodiaco<i class="bi bi-fire"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-disc-fill"></i> Horóscopo <i class="bi bi-disc"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./glossario.html"><i class="bi bi-journal-bookmark-fill"></i> Glossário de Termos
+                <i class="bi bi-journal-bookmark-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre.html"><i class="bi bi-chat"></i>Sobre Nos<i
+                  class="bi bi-chat-dots"></i></button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center align-items-center">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="images\signos\aries.jpg" class="d-block w-100 ml-auto" alt="...">
+            <button class="btn btn-z-index" id="aries" onclick="chamadaSigno('aries')">Abrir
+              horóscopo de Áries</button>
+          </div>
+          <div class="carousel-item">
+            <img src="images\signos\touro.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="touro" onclick="chamadaSigno('touro')">Abrir
+              horóscopo de Touro</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\gemeos.png" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="gemeos" onclick="chamadaSigno('gemeos')">Abrir
+              horóscopo de Gêmeos</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\cancer.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="cancer" onclick="chamadaSigno('cancer')">Abrir
+              horóscopo de Câncer</button>
+          </div>
+          <div class="carousel-item">
+            <img src="images\signos\leao.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="leao" onclick="chamadaSigno('leao')">Abrir
+              horóscopo de Leão</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\virgem.png" class="d-block w-100 ml-auto" alt="...">
+            <button class="btn btn-z-index" id="virgem" onclick="chamadaSigno('virgem')">Abrir
+              horóscopo de Virgem</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\libra.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="libra" onclick="chamadaSigno('libra')">Abrir
+              horóscopo de Libra</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\escorpiao.png" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="escorpiao" onclick="chamadaSigno('escorpiao')">Abrir
+              horóscopo de Escorpião</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\sagitario.jpg" class="d-block w-100 ml-auto" alt="...">
+            <button class="btn btn-z-index" id="sagitario" onclick="chamadaSigno('sagitario')">Abrir
+              horóscopo de Sagitário</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\capricornio.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="capricornio" onclick="chamadaSigno('capricornio')">Abrir
+              horóscopo de Capricórnio</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\aquario.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="aquario" onclick="chamadaSigno('aquario')">Abrir
+              horóscopo de Aquário</button>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images\signos\peixes.jpg" class="d-block w-100" alt="...">
+            <button class="btn btn-z-index" id="peixes" onclick="chamadaSigno('peixes')">Abrir
+              horóscopo de Peixes</button>
+          </div>
+
+        </div>
+        <button onclick="fecharHoroscopo()" id="previa" class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button onclick="fecharHoroscopo()" class="carousel-control-next" type="button"
+          data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="horoscopoDataDiv" class="container d-flex justify-content-center align-items-center textoHoroscopo">
+      <h6 id="horoscopoData"></h6>
+    </div>
+    <div id="horoscopoTituloDiv" class="container d-flex justify-content-center align-items-center textoHoroscopo">
+      <h4 id="horoscopoTitulo"></h4>
+    </div>
+    <div id="horoscopoTexto" class="container d-flex justify-content-center align-items-center textoHoroscopo"></div>
+</body>
+
+</html>
